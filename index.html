@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+
+    <h1>Capture Sarajevo</h1>
+
+</header>
+
+<body>
+
+    <div class="gameBody">
+
+        <div class="startMenu">
+            
+            <div class="yes">
+
+                <h1>Capture the Flag</h1>
+
+                <button type="button" class="start-button">Start game</button>
+
+            </div> 
+
+            <div class="info">
+
+                <h1>Information</h1>
+
+                <p>Use W,A,S,D and arrow keys to play. Get eachothers flag and bring it back to your zone</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="hidden gameMenu">
+
+            <h1>Select your names</h1>
+
+            <form class="name-form">
+
+                <input type="text" value="Player1" class="p1Name">
+                <input type="text" value="Player2" class="p2Name">
+                
+            </form>
+
+            <button type="button" class="next-1-button gameButton">Next</button>
+            <button type="button" class="back-button gameButton">Back to Menu</button>
+
+        </div>
+
+        <div class="game gameHidden">
+
+            <h1>Game</h1>
+
+            <div class="gameWindow">
+
+                <div class="player-stats">
+
+                    <div class="p1">
+
+                        <span class="name1"></span>
+                        <span class="p1Points"></span>
+    
+                    </div>
+    
+                    <div class="p2">
+    
+                        <span class="name2"></span>
+                        <span class="p2Points"></span>
+    
+                    </div>
+
+                    <div class="game-area">
+
+                        
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button type="button" class="exit-button">Exit</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
